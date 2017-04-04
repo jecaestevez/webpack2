@@ -1,0 +1,34 @@
+{
+  "name": "angular1x-todo-app-webpack2",
+  "version": "0.0.1",
+  "description": "simple TODO angular1x app with webpack2",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jecaestevez/webpack2.git"
+  },
+  "keywords": [
+    "webpack2",
+    "angular"
+  ],
+  "author": "jecaestevez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jecaestevez/webpack2/issues"
+  },
+  "homepage": "https://github.com/jecaestevez/webpack2#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.3.2",
+    "raw-loader": "^0.5.1",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
